@@ -1,0 +1,72 @@
+.One {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.One > div {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Two {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Two > div {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.Three {
+    display: flex;
+    border: 5px solid rgb(0, 0, 0);
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: flex-end;
+}
+
+.Three > div {
+    background-color: rgb(255, 0, 0);
+    padding: 80px;
+    margin: 80px;
+    font-size: 40px;
+}
+
+.Three > .Test {
+    background-color: rgb(128, 0, 128);
+}
+
+.Four {
+    display: flex;
+    border: 5px solid rgb(0, 0, 0);
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-around;
+}
+
+.Four > div {
+    background-color: rgb(255, 0, 0);
+    padding: 80px;
+    font-size: 40px;
+}
+
+.Five {
+    display: flex;
+    border: 5px solid rgb(0, 0, 0);
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-between;
+}
+
+.Five > div {
+    background-color: rgb(255, 0, 0);
+    padding: 80px;
+    font-size: 40px;
+}

@@ -1,0 +1,52 @@
+#One {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 50px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+#Two {
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 25px 50px 80px;
+    margin: 10px 30px;
+    text-transform: uppercase;
+}
+
+#Three {
+    text-decoration: line-through;
+}
+
+#Four {
+    text-transform: capitalize;
+    text-indent: 50px;
+}
+
+#Five {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+#Five > div {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#Six {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Six > div {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 100px;
+}

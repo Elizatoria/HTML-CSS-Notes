@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Disappearing Text Button -->
+        <p id='demo' class='demo'>Hello Javascript</p>
+        <button type='button'> click me </button>
+        <script>
+            var tag = document.getElementById('demo');
+            var button = document.querySelector('button');
+            button.addEventListener('click', function(){
+            tag.classList.toggle('demo');
+            });  
+        </script>
+
+<h1>Hover Div</h1>
+
+<div class="dropdown">
+    <span>Hover Over Me</span>
+    <div class="dropdown-content">Batman is Best</div>
+</div>
+</body>
+</html>
